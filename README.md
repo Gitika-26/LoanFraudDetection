@@ -53,7 +53,8 @@ The dataset used in this project includes information on telecom customers and t
 * mort_acc                <br>
 * pub_rec_bankruptcies      <br>
 * address    <br>
-The descriptions of the Columns can be found in the info csv file. <br>
+
+### The descriptions of the Columns can be found in the info csv file. <br>
 
 <a name="datapreprocessing"></a>
 ## Data Preprocessing
