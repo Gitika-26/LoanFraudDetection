@@ -1,4 +1,4 @@
-# **Loan Fraud Detection with Neural Networks.**
+# **Loan Fraud Detection with Artificial Neural Networks.**
 
 The Loan Fraud Detection Model is designed to identify fraudulent loan applications using an Artificial Neural Network (ANN) implemented with TensorFlow 2.0 and Keras. The model analyzes various features of loan applications to predict the likelihood of fraud, helping financial institutions mitigate risks and prevent fraudulent activities.
 
