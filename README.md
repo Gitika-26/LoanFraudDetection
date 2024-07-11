@@ -14,13 +14,13 @@ The Loan Fraud Detection Model is designed to identify fraudulent loan applicati
 
 <a name="intro"></a>
 ## Introduction
-Background <br>
+* Background <br>
 Fraud in the loan industry poses a significant threat to financial institutions, leading to substantial financial losses and reputational damage. Traditional methods of detecting fraudulent activities often fall short in the face of increasingly sophisticated fraud tactics. To address these challenges, the Loan Fraud Detection Model leverages cutting-edge artificial intelligence techniques to provide a robust and reliable solution for identifying fraudulent loan applications.<br>
 
-Problem Statement<br?
+* Problem Statement<br>
 Financial fraud, particularly loan fraud, involves deceiving lenders into approving loans under false pretenses. This can include identity theft, falsified income information, and other fraudulent activities. The complexity and volume of loan applications make it difficult for traditional rule-based systems to effectively detect and prevent fraud. There is a pressing need for an intelligent system capable of analyzing vast amounts of data and identifying patterns indicative of fraudulent behavior.<br>
 
-Solution Overview <br>
+* Solution Overview <br>
 The Loan Fraud Detection Model employs an Artificial Neural Network (ANN) to detect fraudulent loan applications with high accuracy. By analyzing a variety of features from loan applications, the model can identify subtle patterns that may indicate fraudulent activity. The model is built using TensorFlow 2.0 and Keras, which provide powerful tools for developing, training, and deploying deep learning models.. <br>
 
 <a name="dataset"></a>
@@ -33,7 +33,7 @@ The dataset used in this project includes information on telecom customers and t
 * grade                       <br>
 * sub_grade                   <br>
 * emp_title               <br>
-* emp_length              <br?
+* emp_length              <br>
 * home_ownership              <br>
 * annual_inc                  <br>
 * verification_status         <br>
