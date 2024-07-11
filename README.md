@@ -28,31 +28,31 @@ The Loan Fraud Detection Model employs an Artificial Neural Network (ANN) to det
 The dataset used in this project includes information on telecom customers and their subscription details. The columns are:  <br>
 * loan_amnt     <br>
 * term          <br>
-*int_rate          <br>
-*installment                 <br>
-*grade                       <br>
-*sub_grade                   <br>
-*emp_title               <br>
-*emp_length              <br?
-*home_ownership              <br>
-*annual_inc                  <br>
-*verification_status         <br>
-*issue_d                     <br>
-*loan_status                 <br>
-*purpose                     <br>
-*title                    <br>
-*dti                         <br>
-*earliest_cr_line            <br>
-*open_acc                    <br>
-*pub_rec                     <br>
-*revol_bal                   <br>
-*revol_util                <br>
-*total_acc                   <br>
-*initial_list_status         <br>
-*application_type            <br>
-*mort_acc                <br>
-*pub_rec_bankruptcies      <br>
-*address    <br>
+* int_rate          <br>
+* installment                 <br>
+* grade                       <br>
+* sub_grade                   <br>
+* emp_title               <br>
+* emp_length              <br?
+* home_ownership              <br>
+* annual_inc                  <br>
+* verification_status         <br>
+* issue_d                     <br>
+* loan_status                 <br>
+* purpose                     <br>
+* title                    <br>
+* dti                         <br>
+* earliest_cr_line            <br>
+* open_acc                    <br>
+* pub_rec                     <br>
+* revol_bal                   <br>
+* revol_util                <br>
+* total_acc                   <br>
+* initial_list_status         <br>
+* application_type            <br>
+* mort_acc                <br>
+* pub_rec_bankruptcies      <br>
+* address    <br>
 The descriptions of the Columns can be found in the info csv file. <br>
 
 <a name="datapreprocessing"></a>
@@ -61,3 +61,41 @@ To prepare the data for modeling, the following preprocessing steps were perform
 * Handling missing values  <br>
 * Encoding categorical variables  <br>
 * Normalizing numerical features <br>
+* Filling in missing values using appropriate correlational columns data <br>
+
+<a name="EDA"></a>
+## Exploratory Data Analysis (EDA)
+EDA was conducted to understand the distribution and relationships between variables. Python Data Visualisation Libraries * Seaborn *  &  * Matplotlib* were used. Key insights were visualized using various plots and graphs. the following are the plots used - <br>
+* BarPlot <br>
+* Countplot <br>
+* Boxplot <br>
+* Displot <br>
+* Histplot <br>
+* Scatterplot <br>
+
+<a name="MLModels"></a>
+## Our Deep Learning Model 
+Tensorflow 2.0 with Keras API was used to deploy a feed forward Artificial Neural Network. The following parameters were adjusted accordingly for better accuracy  <br>
+* No of Neurons  <br>
+* No of epochs <br>
+* Choosing Appropriate Activation function <br>
+* Dropout   <br>
+* Monitering losses & Val Losses  <br>
+
+<a name="ModelEvaluation"></a>
+## Model Evaluation
+The models were evaluated using the following metrics:  <br>
+* Precision  <br>
+* Recall  <br>
+* F1 Score  <br>
+* Losses <br>
+* Val_Losses <br>
+* Graph of Losses and Val_Losses values during training
+
+
+<a name="Results"></a>
+## Results
+The Gradient Boosting model provided the best performance with the following metrics:  <br>
+* Precision: 90 %  <br>
+* Recall: 89 %   <br>
+* F1 Score: 87 %  <br>
