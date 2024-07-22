@@ -96,7 +96,4 @@ The models were evaluated using the following metrics:  <br>
 
 <a name="Results"></a>
 ## Results
-The Gradient Boosting model provided the best performance with the following metrics:  <br>
-* Precision: 90 %  <br>
-* Recall: 89 %   <br>
-* F1 Score: 87 %  <br>
+Our Artificial Neural Networks showed great accuracy.
